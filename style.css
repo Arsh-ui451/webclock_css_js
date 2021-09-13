@@ -1,0 +1,70 @@
+body {
+    background: url(https://source.unsplash.com/1600x900/?nature,water);
+    margin: 0px;
+    padding: 0px;
+
+    background-repeat: no-repeat;
+}
+
+section {
+
+    height: 99vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap');
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    border-radius: 50px;
+    opacity: 0.5;
+    background-color: black;
+    border: 2px solid black;
+    display: flex;
+    position: relative;
+    margin: auto;
+    height: 50vh;
+    max-width: 700px;
+    width: 100%;
+    justify-content: center;
+}
+
+.container h2 {
+
+
+    display: flex;
+    position: absolute;
+    left: 87px;
+    font-size: 42px;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: n1;
+    
+    
+}
+
+@keyframes n1 {
+    from {
+        color: white;
+    }
+
+    to {
+        color:rgb(247, 0, 53);
+    }
+}
+
+#realtime {
+
+    font-size: 34px;
+    display: flex;
+    position: relative;
+    right: 25px;
+    top: 45px;
+    margin: auto;
+    height: 17vh;
+    width: 627px;
+    justify-content: center;
+
+}
